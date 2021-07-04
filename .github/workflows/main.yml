@@ -61,6 +61,6 @@ jobs:
        with:
          manifest: |
            k8s/web/deployment.yaml
-         images: daviantonio01/rotten-potatoes:${{github.run_number}}
+         images: davixx/rotten-potatoes:${{github.run_number}}
             
         
